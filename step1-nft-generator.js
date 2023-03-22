@@ -57,7 +57,7 @@ function codeToArray(code) {
 
     let property = parseInt(code.mod(len).toFixed()) + +attributes[i].required;
 
-    arr[i] = mapValueByWeight(attributes[i].values, property);
+    arr[i] = mapValueByWeight(attributes[i].values, property); 
 
     code = code.minus(arr[i]).dividedBy(len).integerValue();
   }

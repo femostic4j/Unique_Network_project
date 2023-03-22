@@ -23,7 +23,8 @@ async function main() {
     .fill({})
     .map((el, i) => {
       const n = i + 1;
-      const image = { url: `https://ipfs.unique.network/ipfs/QmYH77EDDhp2sESTugyynZAenJ5pJ8zcaiBgt8dpN8Vm8f?filename=artwork2.png`};
+      const image ={url:`https://ipfs.unique.network/ipfs/QmYH77EDDhp2sESTugyynZAenJ5pJ8zcaiBgt8dpN8Vm8f?filename=p1.png`}
+      //const image = { url: `https://ipfs.unique.network/ipfs/QmUvLfq8KfdC1CrfFee2vEQZCS4vK7WP9f6rPsoK8XGJt8?filename=artwork3.png`};
     //const image = { urlInfix: `${config.imagePrefix}${n}.png`};
       const encodedAttributes = {};
       faces[i].forEach((el, j) => {

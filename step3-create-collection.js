@@ -14,7 +14,7 @@ const inputDataForCreateCollection = {
   readOnly: true,
   schema: {
     coverPicture: {
-      url: "https://ipfs.unique.network/ipfs/QmecMqpdFcd5XLLxLvxbZdqtMsBafdrXeLNfwUkh7cXuFi",
+      url: "https://ipfs.unique.network/ipfs/QmY813aQmU43dUZAd7cKS8b1cNaRcpaik1vYZuAZUqFP2f",
     },
 
     image: {},
@@ -55,7 +55,7 @@ async function main() {
   inputDataForCreateCollection.schema.attributesSchema = attributesSchema;
   inputDataForCreateCollection.schema.image.urlTemplate = '{infix}';
   inputDataForCreateCollection.schema.coverPicture = config.coverFileName
-    ? { url: `https://ipfs.unique.network/ipfs/QmecMqpdFcd5XLLxLvxbZdqtMsBafdrXeLNfwUkh7cXuFi?filename=artwork.png` }    
+    ? { url: `https://ipfs.unique.network/ipfs/QmY813aQmU43dUZAd7cKS8b1cNaRcpaik1vYZuAZUqFP2f?filename=mpowa_logo2.png` }    
     : { ipfsCid: '' };
 
   const { parsed: { collectionId }} =
@@ -70,4 +70,11 @@ async function main() {
 }
 
 main().catch(console.error).finally(() => process.exit());
+
+
+
+
+
+
+
 
